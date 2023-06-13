@@ -4,11 +4,14 @@ function App() {
   return (
     <div className="App">
       <hero>
-        <header>
-          <h1 className="title left">Kat De Mey</h1>
+        <header id="header">
+          <h1 className="title left text-gray-50">Kat De Mey</h1>
           <div className="Nav-buttons right">
             <div className="about-me-button">
               <a href="#about-me">About Me</a>
+            </div>
+            <div className="FAQs-button">
+              <a href="#FAQs">FAQs</a>
             </div>
             <div>
               <a href="#portfolio">Portfolio</a>
@@ -22,16 +25,18 @@ function App() {
           </div>
         </header>
 
-        <div className="landing-page-body">
-          <h1>Hiring A Full Stack Developer?</h1>
-          <h2>
+        <div className="self-intro pt-36 pb-20 ">
+          <h1 className="text-5xl text-gray-50 ">
+            Hiring A Full Stack Developer?
+          </h1>
+          <h2 className="text-xl text-gray-50">
             Hi, I'm Kat I am a junior full stack developer based in Leamington
             Spa, UK.
           </h2>
-          <p>
-            Aiming to become the <scan>best</scan> and work for the best. ,/
+          <p className="text-gray-50">
+            Aiming to become the <scan>best</scan> and work for the best.
           </p>
-          <p>
+          <p className="text-gray-50">
             {" "}
             Skills in <scan>React,</scan> <scan>JS,</scan>
             <scan>HTML</scan> and <scan>CSS</scan>
@@ -42,6 +47,10 @@ function App() {
       <main>
         {/* ABOUT ME */}
         <div className="page about-me" id="about-me">
+          <img
+            src="https://media-cdn.tripadvisor.com/media/photo-s/0d/87/44/54/uhuru-peak-tanzania-mount.jpg"
+            alt="Uhuru peak on kilimanjaro"
+          />
           <h1>About Me</h1>
           <h2>Introduction</h2>
           <p>
@@ -69,17 +78,17 @@ function App() {
             <li>
               I summited the tallest mountain in Africal: Mount Kilimanjaro...
               when I have my heart set on something, I will work toward it until
-              I succeed, be it learning something new, or scaling a mountain
+              I succeed, be it scaling a mountain, or learning something new.
             </li>
           </ul>
         </div>
 
-        <div className="page">
+        <div className="page" id="FAQs">
           <h2>FAQs:</h2>
           <div>"What are you currently learing?"</div>
           <p>
-            Currently I am exploring different CSS libraries such as TailWind,
-            other react libraries, and I am working on mastering databases
+            Currently I am exploring Typescript, TailWind, and specialised react
+            libraries
           </p>
           <div>"what are you currently working on?"</div>
           <p>
@@ -217,6 +226,12 @@ function App() {
           <input type="text" placeholder="Message" />
         </div>
       </main>
+
+      {/* TODO: position this over each page
+      <a className="to-top" href="#header">
+        ^
+      </a>
+       */}
     </div>
   );
 }
