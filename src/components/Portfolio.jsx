@@ -1,9 +1,10 @@
 const Portfolio = () => {
   return (
     <>
-      <div className="page portfolio" id="portfolio">
-        <h1>Portfolio</h1>
-        <div className="container">
+      <div className="page portfolio grid object-contain" id="portfolio">
+        <h1 className="font-mono text-6xl my-7">Portfolio</h1>
+
+        <div className="container grid">
           <div className="Item1">
             <h2>BookStat</h2>
             <p>

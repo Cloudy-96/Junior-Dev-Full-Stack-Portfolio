@@ -2,7 +2,7 @@ const Contact = () => {
     return (
       <>
         <div className="page Contact" id="contact">
-          <h2>Where you can find me</h2>
+          <h2 className="font-mono text-6xl my-7">Where you can find me</h2>
           <ul>
             <li>github</li>
             <li>linkedIn</li>

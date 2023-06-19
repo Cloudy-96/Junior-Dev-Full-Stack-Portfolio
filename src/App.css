@@ -5,12 +5,6 @@
   color: whitesmoke;
 }
 
-
-/* main {
-  display: grid ;
-  width: 50%;
-} */
-
 hero {
   display: grid;
   grid-template-rows: 40px, 1fr;

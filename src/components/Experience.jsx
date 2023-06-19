@@ -2,7 +2,7 @@ const Experience = () => {
   return (
     <>
       <div className="page experience">
-        <h1>Experience</h1>
+        <h1 className="font-mono text-6xl my-7">Experience</h1>
         <div className="skills">
           <h3>Tech Stack</h3>
           <ul>

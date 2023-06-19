@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <hero>
-        <header id="header">
+        <header className="relative" id="header">
           <h1 className="title left text-gray-50">Kat De Mey</h1>
           <div className="Nav-buttons right">
             <div className="about-me-button">
