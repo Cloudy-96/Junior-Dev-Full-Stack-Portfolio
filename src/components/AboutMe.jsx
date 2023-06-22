@@ -2,13 +2,16 @@ const AboutMe = () => {
   return (
     <>
       <div className="grid-rows-2 grid-rows-2">
-        <div className=" about-me grid grid-cols-2 gap-3 " id="about-me">
+        <div
+          className=" about-me grid grid-cols-2 gap-3  place-items-center"
+          id="about-me"
+        >
           <img
-            className="shadow-2xl"
+            className="shadow-2xl pr-0"
             src="https://media-cdn.tripadvisor.com/media/photo-s/0d/87/44/54/uhuru-peak-tanzania-mount.jpg"
             alt="Uhuru peak on kilimanjaro"
           />
-          <section>
+          <section className="pr-12 ">
             <h1 className="font-mono text-6xl my-7">About Me: </h1>
             {/* <h2>Introduction</h2> */}
             <p>

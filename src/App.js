@@ -34,7 +34,7 @@ function App() {
             Hiring A Full Stack Developer?
           </h1>
           <h2 className="text-xl text-gray-50">
-            Hi, I'm Kat I am a junior full stack developer based in Leamington
+            Hi I'm Kat, a junior full stack developer based in Leamington
             Spa, UK.
           </h2>
           <p className="text-gray-50">
