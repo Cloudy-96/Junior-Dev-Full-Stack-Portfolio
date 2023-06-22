@@ -16,9 +16,30 @@ import {
 const Experience = () => {
   return (
     <>
-      <div className="flex-row experience">
-        <div>
+      <div className="flex-row experience justify-center">
+        <div className="flex-row  justify-center">
           <h1 className="font-mono text-6xl my-7">Experience</h1>
+        </div>
+
+{/* TODO: center this and style the text*/}
+        <div className="max-w-5xl text-left ">
+          <p>
+            Completed a full-time 6-month training program as a full stack
+            developer at Boolean Coding Academy. Worked on various projects that
+            taught me how to turn user requirements into software and work
+            through the full development cycle using React, JavaScript, RESTful
+            APIs, and PostgreSQL.
+          </p>
+          <p>
+            Have dedicated over 900 hours of study and work on various projects
+            which have included building:
+          </p>
+          <ul>
+            <li> responsive websites</li>
+            <li> creating dynamic front-end and web applicationss</li>
+            <li> designing, creating and using databases</li>
+            <li> writing and maintaining documentation for APIs</li>
+          </ul>
         </div>
 
         <div className="skills">
