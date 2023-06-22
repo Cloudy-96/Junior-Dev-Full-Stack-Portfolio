@@ -1,7 +1,7 @@
 const AboutMe = () => {
   return (
     <>
-      <div className="page grid-rows-2 grid-rows-2">
+      <div className="grid-rows-2 grid-rows-2">
         <div className=" about-me grid grid-cols-2 gap-3 " id="about-me">
           <img
             className="shadow-2xl"
@@ -67,7 +67,7 @@ const AboutMe = () => {
         </div>
       </div>
 
-      {/* <div className="page" id="FAQs">
+      {/* <div id="FAQs">
         <h2 className="font-mono text-6xl my-7">FAQs:</h2>
         <div>"What are you currently learing?"</div>
         <p>

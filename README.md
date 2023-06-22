@@ -1,5 +1,7 @@
 # Kat De Mey's junior software developer portfolio
 
+<!-- Hit the live example, click here 🚀 -->
+
 I decided to code my portfolio using react so that I can organise my components,and make it easier to maintain and update as I grow as a developer.
 
 This repository contains the source code and for my developer portfolio website. The website showcases my experience, and projects as a full stack developer.
@@ -21,7 +23,7 @@ This repository contains the source code and for my developer portfolio website.
 
 vercel
 
-## Available Scripts
+## Run the project locally
 
 To run the project locally, follow these steps:
 
