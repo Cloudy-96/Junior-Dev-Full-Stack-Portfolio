@@ -35,7 +35,7 @@ export function LinkedInSVG() {
           xmlnsXlink="http://www.w3.org/1999/xlink"
           aria-hidden="true"
           role="img"
-          className="iconify iconify--fa"
+          className="iconify iconify--fa "
           width="40px"
           height="40px"
           preserveAspectRatio="xMidYMid meet"

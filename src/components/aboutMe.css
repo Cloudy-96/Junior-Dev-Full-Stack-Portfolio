@@ -6,7 +6,7 @@
 #accordian li {
     width: 100%;
     margin-bottom: 10px;
-    background-color: #fff;
+    background-color: whitesmoke;
     padding: 10px;
     border-radius: 4px;
 }
@@ -23,7 +23,6 @@
 }
 
 #accordian li label span {
-    transform: rotate(90deg);
     font-size: 22px;
     color: purple
 }

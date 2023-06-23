@@ -3,9 +3,9 @@ import { LinkedInSVG, GithubSVG } from "../svgs/socials";
 const Contact = () => {
   return (
     <>
-      <div className="Contact" id="contact">
-        <h2 className="font-mono text-6xl my-7">Where you can find me</h2>
-        <h2>Say hi!</h2>
+      <div className="Contact bg-zinc-800 py-10 " id="contact">
+        <h2 className="font-mono text-6xl my-7 text-gray-200">Say Hi!</h2>
+
         <div className="flex justify-center gap-5">
           <a
             href="https://github.com/Cloudy-96"

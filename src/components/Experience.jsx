@@ -16,13 +16,13 @@ import {
 const Experience = () => {
   return (
     <>
-      <div className="flex-row experience justify-center">
+      <div className="flex-row experience bg-gray-100 py-10">
         <div className="flex-row  justify-center">
           <h1 className="font-mono text-6xl my-7">Experience</h1>
         </div>
 
         {/* TODO: center this and style the text*/}
-        <div className="max-w-5xl text-left ">
+        <div className="max-w-5xl text-left">
           <p>
             Completed a full-time 6-month training program as a full stack
             developer at Boolean Coding Academy. Worked on various projects that

@@ -1,10 +1,10 @@
 import "./aboutMe.css";
-import { FiChevronRight } from "react-icons/fi";
+import { FiChevronDown } from "react-icons/fi";
 
 const AboutMe = () => {
   return (
     <>
-      <div className="grid-rows-2 grid-rows-2">
+      <div className="grid-rows-2 grid-rows-2 py-16">
         <div
           className=" about-me grid grid-cols-2 gap-3  place-items-center"
           id="about-me"
@@ -50,14 +50,14 @@ const AboutMe = () => {
           </section>
         </div>
 
-        <div className="accordian my-12 block" id="FAQs">
+        <div className="accordian my-12 block bg-gray-100 py-10" id="FAQs">
           <h2 className="font-mono text-6xl my-7">FAQs:</h2>
           <ul id="accordian">
             <li>
               <label for="first">
                 "What are you currently learning?"{" "}
                 <span>
-                  <FiChevronRight />
+                  <FiChevronDown />
                 </span>
               </label>
               <input type="radio" name="accordian" id="first" />
@@ -72,7 +72,7 @@ const AboutMe = () => {
               <label for="second">
                 "What are you currently working on?"{" "}
                 <span>
-                  <FiChevronRight />
+                  <FiChevronDown />
                 </span>
               </label>
               <input type="radio" name="accordian" id="second" />
@@ -87,7 +87,7 @@ const AboutMe = () => {
               <label for="third">
                 "What is your favourite game"{" "}
                 <span>
-                  <FiChevronRight />
+                  <FiChevronDown />
                 </span>
               </label>
               <input type="radio" name="accordian" id="third" />
@@ -102,31 +102,10 @@ const AboutMe = () => {
               </div>
             </li>
           </ul>
-
         </div>
       </div>
 
-      {/* <div id="FAQs">
-        <h2 className="font-mono text-6xl my-7">FAQs:</h2>
-        <div>"What are you currently learing?"</div>
-        <p>
-          Currently I am exploring Typescript, TailWind, and specialised react
-          libraries
-        </p>
-        <div>"what are you currently working on?"</div>
-        <p>
-          I am working on creating more front-end and full-stack projects to add
-          to my portfolio.
-        </p>
-        <div>"What is your favourite game"</div>
-        <p>
-          I love a good "cozy" game, like Animal Crossing, Coral Island, and
-          Stray. My all time favourite though is Stardew Valley, and the more I
-          have learnt to code, the more I appreciate how it was developped by a
-          single developer, ConcernedApe (aka Eric Barone), and I highly admire
-          that.
-        </p>
-      </div> */}
+  
     </>
   );
 };
