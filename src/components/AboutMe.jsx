@@ -1,3 +1,6 @@
+import "./aboutMe.css";
+import { FiChevronRight } from "react-icons/fi";
+
 const AboutMe = () => {
   return (
     <>
@@ -47,26 +50,59 @@ const AboutMe = () => {
           </section>
         </div>
 
-        <div className="my-12 block" id="FAQs">
+        <div className="accordian my-12 block" id="FAQs">
           <h2 className="font-mono text-6xl my-7">FAQs:</h2>
-          <div>"What are you currently learing?"</div>
-          <p>
-            Currently I am exploring Typescript, TailWind, and specialised react
-            libraries
-          </p>
-          <div>"what are you currently working on?"</div>
-          <p>
-            I am working on creating more front-end and full-stack projects to
-            add to my portfolio.
-          </p>
-          <div>"What is your favourite game"</div>
-          <p>
-            I love a good "cozy" game, like Animal Crossing, Coral Island, and
-            Stray. My all time favourite though is Stardew Valley, and the more
-            I have learnt to code, the more I appreciate how it was developped
-            by a single developer, ConcernedApe (aka Eric Barone), and I highly
-            admire that.
-          </p>
+          <ul id="accordian">
+            <li>
+              <label for="first">
+                "What are you currently learning?"{" "}
+                <span>
+                  <FiChevronRight />
+                </span>
+              </label>
+              <input type="radio" name="accordian" id="first" />
+              <div className="content">
+                <p>
+                  Currently I am exploring Typescript, TailWind, and specialised
+                  react libraries
+                </p>
+              </div>
+            </li>
+            <li>
+              <label for="second">
+                "What are you currently working on?"{" "}
+                <span>
+                  <FiChevronRight />
+                </span>
+              </label>
+              <input type="radio" name="accordian" id="second" />
+              <div className="content">
+                <p>
+                  I am working on creating more front-end and full-stack
+                  projects to add to my portfolio.
+                </p>
+              </div>
+            </li>{" "}
+            <li>
+              <label for="third">
+                "What is your favourite game"{" "}
+                <span>
+                  <FiChevronRight />
+                </span>
+              </label>
+              <input type="radio" name="accordian" id="third" />
+              <div className="content">
+                <p>
+                  I love a good "cozy" game, like Animal Crossing, Coral Island,
+                  and Stray. My all time favourite though is Stardew Valley, and
+                  the more I have learnt to code, the more I appreciate how it
+                  was developped by a single developer, ConcernedApe (aka Eric
+                  Barone), and I highly admire that.
+                </p>
+              </div>
+            </li>
+          </ul>
+
         </div>
       </div>
 

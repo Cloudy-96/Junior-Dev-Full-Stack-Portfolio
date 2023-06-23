@@ -21,7 +21,7 @@ const Experience = () => {
           <h1 className="font-mono text-6xl my-7">Experience</h1>
         </div>
 
-{/* TODO: center this and style the text*/}
+        {/* TODO: center this and style the text*/}
         <div className="max-w-5xl text-left ">
           <p>
             Completed a full-time 6-month training program as a full stack
