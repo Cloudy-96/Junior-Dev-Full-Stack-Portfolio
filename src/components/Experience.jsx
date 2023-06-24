@@ -10,19 +10,18 @@ import {
   ExpressJsSVG,
   JiraSVG,
   GitSVG,
-  FigmaSVG,
 } from "../svgs/tech-skills";
 
 const Experience = () => {
   return (
     <>
-      <div className="flex-row experience bg-gray-100 py-10">
-        <div className="flex-row  justify-center">
+      <div className="flex-row experience bg-gray-100 py-10 place-items-center ">
+        <div className="py-4 flex-row  justify-center">
           <h1 className="font-mono text-6xl my-7">Experience</h1>
         </div>
 
         {/* TODO: center this and style the text*/}
-        <div className="max-w-5xl text-left">
+        <div className="p-20 max-w-5xl text-left">
           <p>
             Completed a full-time 6-month training program as a full stack
             developer at Boolean Coding Academy. Worked on various projects that
@@ -34,7 +33,7 @@ const Experience = () => {
             Have dedicated over 900 hours of study and work on various projects
             which have included building:
           </p>
-          <ul>
+          <ul className="px-20 list-disc">
             <li> responsive websites</li>
             <li> creating dynamic front-end and web applicationss</li>
             <li> designing, creating and using databases</li>

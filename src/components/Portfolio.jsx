@@ -8,6 +8,7 @@ const projects = [
     img: "",
     readMoreUrl: "",
     gitHub: "https://github.com/Cloudy-96/BookStat-App",
+    techStack: ["JavaScript", "React.js", "HTML", "CSS"]
   },
   {
     name: "GhibVerse",
@@ -16,6 +17,7 @@ const projects = [
     img: "",
     readMoreUrl: "",
     gitHub: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    techStack: ["JavaScript", "React.js", "HTML", "CSS", "Typescript"]
   },
   {
     name: "Junior Dev Portfolio",
@@ -23,6 +25,7 @@ const projects = [
     img: "",
     readMoreUrl: "",
     gitHub: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    techStack: ["JavaScript", "React.js", "HTML", "CSS", "Tailwind"]
   },
   {
     name: "ClimbIt App",
@@ -31,6 +34,7 @@ const projects = [
     img: "",
     readMoreUrl: "",
     gitHub: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    techStack: ["JavaScript", "React.js", "HTML", "CSS", "..."]
   },
 ];
 
@@ -46,12 +50,12 @@ const Portfolio = () => {
       >
         <h1 className="font-mono text-6xl my-7">Portfolio</h1>
         <Testing />
-        <div className=" flex justify-center ">
-          <ul className="flex">
+        <div className=" flex justify-center overflow-x-visible">
+          <ul className="flex scrolling-touch">
             {projects.map((project) => (
               <li
                 key="project.id"
-                className="bg-gray-50 p-8 rounded-md m-2 w-80"
+                className="p-8 mt-10 bg-rose-50 shadow-xs  rounded-md m-2 w-80"
               >
                 <h2 className="text-xl font-semibold m-4">{project.name}</h2>
                 <p className="m-4">{project.about}</p>

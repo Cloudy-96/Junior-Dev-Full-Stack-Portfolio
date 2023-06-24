@@ -16,7 +16,6 @@ const AboutMe = () => {
           />
           <section className="pr-12 ">
             <h1 className="font-mono text-6xl my-7">About Me: </h1>
-            {/* <h2>Introduction</h2> */}
             <p>
               After having studied many subjects, I like to think of myself as a
               jack-of-many-trades, and in this past year I've been immersed in a
@@ -38,9 +37,11 @@ const AboutMe = () => {
               people I can talk to!).
             </p>
 
-            <ul>
+            <br />
+
+            <ul className="font-semibold">
               Something cool that I have acheived:
-              <li>
+              <li className="font-normal">
                 I summited the tallest mountain in Africa: Mount Kilimanjaro...
                 when I have my heart set on something, I will work toward it
                 until I succeed, be it scaling a mountain, or learning something
@@ -104,10 +105,9 @@ const AboutMe = () => {
           </ul>
         </div>
       </div>
-
-  
     </>
   );
 };
 
 export default AboutMe;
+

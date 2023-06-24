@@ -23,8 +23,7 @@ const Contact = () => {
             <LinkedInSVG />
           </a>
         </div>
-        {/* </div>
-        <div> */}
+        <p className="p-10 text-gray-200">Kat De Mey</p>
       </div>
     </>
   );
