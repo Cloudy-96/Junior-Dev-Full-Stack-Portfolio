@@ -31,3 +31,7 @@ To run the project locally, follow these steps:
 2. Install the required dependencies: npm install
 3. Start the development server: npm run dev
 4. Open your browser and visit <http://localhost:3000> to view the website.
+
+
+### Aknowledgements
+Code icon by Icons8: ```"https://icons8.com/icon/63911/code```

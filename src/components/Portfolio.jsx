@@ -1,5 +1,5 @@
 import { Testing } from "../svgs/tech-stack";
-
+import "./Portfolio.css"
 const projects = [
   {
     name: "BookStat App",
@@ -8,7 +8,7 @@ const projects = [
     img: "",
     readMoreUrl: "",
     gitHub: "https://github.com/Cloudy-96/BookStat-App",
-    techStack: ["JavaScript", "React.js", "HTML", "CSS"]
+    techStack: ["JavaScript", "React.js", "HTML", "CSS"],
   },
   {
     name: "GhibVerse",
@@ -17,25 +17,34 @@ const projects = [
     img: "",
     readMoreUrl: "",
     gitHub: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    techStack: ["JavaScript", "React.js", "HTML", "CSS", "Typescript"]
+    techStack: ["JavaScript", "React.js", "HTML", "CSS", "Typescript"],
   },
   {
     name: "Junior Dev Portfolio",
     about: "This very site",
     img: "",
-    readMoreUrl: "",
+    readMoreUrl: "https://kat-demey-portfolio.vercel.app/",
     gitHub: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    techStack: ["JavaScript", "React.js", "HTML", "CSS", "Tailwind"]
+    techStack: ["JavaScript", "React.js", "HTML", "CSS", "Tailwind"],
   },
   {
-    name: "ClimbIt App",
+    name: "NASA's Astronomy Image of the Day",
     about:
-      "Coming soon... an app for boulderers (rock climbers) that want to keep a record of each of their climbs.",
+      "A redesign of NASA's own page, allowing me to explore UI. Using NASA's API this page loads a new image related to astronomy and shares an explanation of what is being shown.",
     img: "",
-    readMoreUrl: "",
-    gitHub: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    techStack: ["JavaScript", "React.js", "HTML", "CSS", "..."]
+    readMoreUrl: "https://stars-of-the-day-git-master-cloudy-96.vercel.app/",
+    gitHub: "https://github.com/Cloudy-96/Stars-of-the-day",
+    techStack: ["JavaScript", "React.js", "HTML", "CSS", "Tailwind"],
   },
+  // {
+  //   name: "ClimbIt App",
+  //   about:
+  //     "Coming soon... an app for boulderers (rock climbers) that want to keep a record of each of their climbs.",
+  //   img: "",
+  //   readMoreUrl: "",
+  //   gitHub: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  //   techStack: ["JavaScript", "React.js", "HTML", "CSS", "..."],
+  // },
 ];
 
 const Portfolio = () => {
@@ -48,10 +57,13 @@ const Portfolio = () => {
       content-center"
         id="portfolio"
       >
-        <h1 className="font-mono text-6xl my-7">Portfolio</h1>
-        <Testing />
+        <div className="flex g-20 justify-center gap-10">
+          <h1 className="font-mono text-6xl my-7">Portfolio: </h1>{" "}
+          <Testing className="h-11" />
+        </div>
+
         <div className=" flex justify-center overflow-x-visible">
-          <ul className="flex scrolling-touch">
+          <ul className="portfolio-ul flex scrolling-touch">
             {projects.map((project) => (
               <li
                 key="project.id"
@@ -62,11 +74,15 @@ const Portfolio = () => {
                 <div>
                   <a
                     className="cursor-pointer"
-                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    href={
+                      project.readMoreUrl
+                        ? project.readMoreUrl
+                        : "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    }
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Read More
+                    See live
                   </a>
                   <br />
                   <a

@@ -10,7 +10,7 @@ function App() {
       <hero>
         <header className="relative" id="header">
           <h1 className="title left text-gray-50">Kat De Mey</h1>
-          <div className="Nav-buttons right">
+          <nav className="Nav-buttons right">
             <div className="about-me-button">
               <a href="#about-me">About Me</a>
             </div>
@@ -26,7 +26,7 @@ function App() {
             <div>
               <a href="#contact">Contact</a>
             </div>
-          </div>
+          </nav>
         </header>
 
         <div className="self-intro pt-36 pb-20 ">
