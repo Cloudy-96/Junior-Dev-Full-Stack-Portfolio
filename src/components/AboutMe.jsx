@@ -4,13 +4,13 @@ import { FiChevronDown } from "react-icons/fi";
 const AboutMe = () => {
   return (
     <>
-      <div className="grid-rows-2 grid-rows-2 py-16">
+      <div className="About grid-rows-2 grid-rows-2 py-16">
         <div
           className=" about-me grid grid-cols-2 gap-3  place-items-center"
           id="about-me"
         >
           <img
-            className="shadow-2xl pr-0"
+            className="hideInMobView shadow-2xl pr-0"
             src="https://media-cdn.tripadvisor.com/media/photo-s/0d/87/44/54/uhuru-peak-tanzania-mount.jpg"
             alt="Uhuru peak on kilimanjaro"
           />
@@ -23,7 +23,7 @@ const AboutMe = () => {
               amazing experience and the more I code and learn, the more I love
               it.
             </p>
-
+            <br />
             <p>
               I'm looking for the opportunity to join a team where I can
               contribute my passion for coding, and to be part of something
@@ -34,8 +34,16 @@ const AboutMe = () => {
               Some fun facts about me is that I am an avid reader, and rock
               climber, and I also love to have a good time hanging out with
               friends, and learning new languages (the more I learn, the more
-              people I can talk to!).
+              people I can talk to!)
             </p>
+
+            <br />
+
+            <img
+              className="showInMobView hidden shadow-2xl pr-0"
+              src="https://media-cdn.tripadvisor.com/media/photo-s/0d/87/44/54/uhuru-peak-tanzania-mount.jpg"
+              alt="Uhuru peak on kilimanjaro"
+            />
 
             <br />
 
@@ -110,4 +118,3 @@ const AboutMe = () => {
 };
 
 export default AboutMe;
-

@@ -1,5 +1,4 @@
 import { Testing } from "../svgs/tech-stack";
-import "./Portfolio.css"
 const projects = [
   {
     name: "BookStat App",
@@ -57,7 +56,7 @@ const Portfolio = () => {
       content-center"
         id="portfolio"
       >
-        <div className="flex g-20 justify-center gap-10">
+        <div className="flex g-20 justify-center">
           <h1 className="font-mono text-6xl my-7">Portfolio: </h1>{" "}
           <Testing className="h-11" />
         </div>

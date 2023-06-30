@@ -27,8 +27,8 @@
     color: purple
 }
 
-#accordian label + input[type="radio"] {
-display: none;
+#accordian label+input[type="radio"] {
+    display: none;
 }
 
 #accordian .content {
@@ -39,6 +39,40 @@ display: none;
     transition: max-height 0.5s;
 }
 
-#accordian label+input[type="radio"]:checked + .content {
+#accordian label+input[type="radio"]:checked+.content {
     max-height: 400px;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .About {
+        display: grid;
+    }
+
+    .about-me {
+        display: grid;
+        margin: auto;
+        width: 90%;
+    }
+
+    .hideInMobView {
+        display: none;
+    }
+
+    .showInMobView {
+        display: inline;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+
+    .accordian {
+        display: grid;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .accordian h2 {
+        width: 55%;
+    }
 }

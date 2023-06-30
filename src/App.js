@@ -42,8 +42,9 @@ function App() {
           </p>
           <p className="text-gray-50">
             {" "}
-            Skills in <scan>React,</scan> <scan>JS,</scan>
-            <scan>HTML</scan> and <scan>CSS</scan>
+            I specialize in <scan>React</scan>, <scan>JavaScript</scan>, 
+            <scan> HTML</scan>, <scan>CSS</scan>, <scan>Node.js</scan>, and
+            <scan> postgreSQL</scan>.
           </p>
         </div>
       </hero>
