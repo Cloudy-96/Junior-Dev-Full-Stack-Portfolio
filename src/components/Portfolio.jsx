@@ -1,4 +1,5 @@
 import { Testing } from "../svgs/tech-stack";
+import "./Portfolio.css"
 const projects = [
   {
     name: "BookStat App",

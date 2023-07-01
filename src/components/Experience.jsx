@@ -11,7 +11,7 @@ import {
   JiraSVG,
   GitSVG,
 } from "../svgs/tech-skills";
-
+import "./Experience.css"
 const Experience = () => {
   return (
     <>
@@ -20,7 +20,6 @@ const Experience = () => {
           <h1 className="font-mono text-6xl my-7">Experience</h1>
         </div>
 
-        {/* TODO: center this and style the text*/}
         <div className="p-20 max-w-5xl text-left">
           <p>
             Completed a full-time 6-month training program as a full stack
@@ -29,11 +28,12 @@ const Experience = () => {
             through the full development cycle using React, JavaScript, RESTful
             APIs, and PostgreSQL.
           </p>
+          <br />
           <p>
             Have dedicated over 900 hours of study and work on various projects
             which have included building:
           </p>
-          <ul className="px-20 list-disc">
+          <ul className="experienceUL px-20 list-disc">
             <li> responsive websites</li>
             <li> creating dynamic front-end and web applicationss</li>
             <li> designing, creating and using databases</li>
