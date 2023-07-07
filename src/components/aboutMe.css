@@ -6,7 +6,7 @@
 #accordian li {
     width: 100%;
     margin-bottom: 10px;
-    background-color: whitesmoke;
+    background-color: hsl(0, 0%, 96%);
     padding: 10px;
     border-radius: 4px;
 }

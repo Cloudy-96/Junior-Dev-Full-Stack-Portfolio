@@ -1017,6 +1017,8 @@ export function Testing() {
         class="2xl:w-37vw pl-55px sm:80vw md:w-70vw lg:w-65vw xl:w-35vw"
         id="a6dc9487-50e2-4fb9-af91-bf1b7118d463"
         data-name="Layer 1"
+        height="450px"
+        width="450px"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1103.79 707.8"
       >

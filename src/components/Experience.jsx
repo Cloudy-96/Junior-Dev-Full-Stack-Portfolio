@@ -15,7 +15,10 @@ import "./Experience.css"
 const Experience = () => {
   return (
     <>
-      <div className="flex-row experience bg-gray-100 py-10 place-items-center ">
+      <div
+        id="experience"
+        className="flex-row experience bg-gray-100 py-10 place-items-center "
+      >
         <div className="py-4 flex-row  justify-center">
           <h1 className="font-mono text-6xl my-7">Experience</h1>
         </div>
