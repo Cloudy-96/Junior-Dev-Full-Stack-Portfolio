@@ -21,7 +21,8 @@ const AboutMe = () => {
               jack-of-many-trades, and in this past year I've been immersed in a
               full time online software developer bootcamp. It has been a truly
               amazing experience and the more I code and learn, the more I love
-              it.
+              it. Now I am a junior full stack developer with a passion for
+              turning UI/UX designs into functional and elegant code.
             </p>
             <br />
             <p>

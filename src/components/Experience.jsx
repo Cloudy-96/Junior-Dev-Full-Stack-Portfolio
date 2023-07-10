@@ -23,7 +23,7 @@ const Experience = () => {
           <h1 className="font-mono text-6xl my-7">Experience</h1>
         </div>
 
-        <div className="p-20 max-w-5xl text-left">
+        <div className="p-20 max-w-5xl text-left mx-auto">
           <p>
             Completed a full-time 6-month training program as a full stack
             developer at Boolean Coding Academy. Worked on various projects that

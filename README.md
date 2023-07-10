@@ -1,10 +1,13 @@
 # Kat De Mey's junior software developer portfolio
 
 <!-- Hit the live example, click here 🚀 -->
+See live version here: https://kat-demey-portfolio.vercel.app/
 
 I decided to code my portfolio using react so that I can organise my components,and make it easier to maintain and update as I grow as a developer.
 
-This repository contains the source code and for my developer portfolio website. The website showcases my experience, and projects as a full stack developer.
+This repository contains the source code and a link to a live demo for my developer portfolio website. The website showcases my experience, and projects as a full stack developer.
+
+This portfolio is still a work in progress but will allow you to get to know me and my style a little bit better.
 
 ## Features
 
@@ -16,6 +19,7 @@ This repository contains the source code and for my developer portfolio website.
 
 ## Technologies used
 
+- npm
 - React.js
 - Tailwind CSS
 
@@ -31,7 +35,6 @@ To run the project locally, follow these steps:
 2. Install the required dependencies: npm install
 3. Start the development server: npm run dev
 4. Open your browser and visit <http://localhost:3000> to view the website.
-
 
 ### Aknowledgements
 Code icon by Icons8: ```"https://icons8.com/icon/63911/code```
