@@ -9,7 +9,7 @@ const projects = [
     about:
       "This project was created as a nod to my love of reading and tracking books. BookStat acts as a digital book-journal which allows users to log information in a way that suits them.",
     img: BookStat,
-    readMoreUrl: "",
+    readMoreUrl: "https://github.com/Cloudy-96/bookstat-server",
     gitHub: "https://github.com/Cloudy-96/BookStat-App",
     techStack: ["JavaScript", "React.js", "HTML", "CSS"],
   },
@@ -34,7 +34,7 @@ const projects = [
   // {
   //   name: "ClimbIt App",
   //   about:
-  //     "Coming soon... an app for boulderers (rock climbers) that want to keep a record of each of their climbs.",
+  //     "Coming soon... an app for rock climbers that want to keep a record of each of their climbs.",
   //   img: "",
   //   readMoreUrl: "",
   //   gitHub: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
@@ -65,7 +65,7 @@ const Portfolio = () => {
                 className="p-8 mt-10 bg-rose-50 shadow-xs rounded-md m-2 grid mx-auto w-fit"
               >
                 <h2 className="text-xl font-semibold m-4">{project.name}</h2>
-                <img className="w-96 h-40" src={project.img} alt={`${project.name} snapshot`} />
+                <img className="w-96 h-40" src={project.img} alt={`${project.name} snapshot coming soon`} />
                 <p className="m-4">{project.about}</p>
                 <div>
                   <a
@@ -78,7 +78,7 @@ const Portfolio = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    See live
+                    See more
                   </a>
                   <br />
                   <a

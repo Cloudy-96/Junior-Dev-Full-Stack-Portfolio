@@ -34,19 +34,21 @@ function App() {
           <h1 className="text-5xl text-gray-50 ">
             Hiring A Full Stack Developer?
           </h1>
-          <h2 className="text-xl text-gray-50">
-            Hi I'm Kat, a junior full stack developer based in Leamington Spa,
-            UK.
-          </h2>
-          <p className="text-gray-50">
-            Aiming to become the <scan>best</scan> and work for the best.
-          </p>
-          <p className="text-gray-50">
-            {" "}
-            I specialize in <scan>React</scan>, <scan>JavaScript</scan>,
-            <scan> HTML</scan>, <scan>CSS</scan>, <scan>Node.js</scan>, and
-            <scan> postgreSQL</scan>.
-          </p>
+          <div className="text-xl text-gray-50 p-6">
+            <p className="text-gray-50">
+              Hi I'm Kat, a junior full stack developer based in Leamington Spa,
+              UK.
+            </p>
+            <p className="text-gray-50">
+              Aiming to become the <scan>best</scan> and work for the best.
+            </p>
+            <p className=" text-gray-50">
+              {" "}
+              I specialize in <scan>React</scan>, <scan>JavaScript</scan>,
+              <scan> HTML</scan>, <scan>CSS</scan>, <scan>Node.js</scan>, and
+              <scan> postgreSQL</scan>.
+            </p>
+          </div>
         </div>
       </hero>
 
