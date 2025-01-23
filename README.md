@@ -19,7 +19,7 @@ This portfolio is still a work in progress but will allow you to get to know me 
 
 ## Technologies used
 
-- npm
+- npm -npm run start
 - React.js
 - Tailwind CSS
 

@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   box-sizing: border-box;
-  background-color: #f9e7e6;
+  /* background: #f9e7e6; */
   color: whitesmoke;
 }
 
@@ -103,4 +103,10 @@ scan {
   .portfolio-ul li {
     box-shadow: 8px 5px 6px #fef2f2;
   }
+
+    .bgImageGithub {
+      background-image: url("./assets/github.png");
+      background-repeat: cover;
+      width: 100%;
+    }
 }

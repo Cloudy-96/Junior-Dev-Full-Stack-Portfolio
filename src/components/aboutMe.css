@@ -80,3 +80,10 @@
         width: 50%;
     }
 }
+
+.bg-self {
+    background: url("../assets/Torii2.jpg") no-repeat;
+    background-repeat: stretch;
+    background-size: 100%;
+    background-position: center;
+}

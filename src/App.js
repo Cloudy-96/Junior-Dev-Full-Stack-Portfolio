@@ -32,7 +32,7 @@ function App() {
 
         <div className="self-intro pt-36 pb-20 ">
           <h1 className="text-5xl text-gray-50 ">
-            Hiring A Full Stack Developer?
+            Web Developer at OhBaby! Games
           </h1>
           <div className="text-xl text-gray-50 p-6">
             <p className="text-gray-50">
@@ -45,17 +45,17 @@ function App() {
             <p className=" text-gray-50">
               {" "}
               I specialize in <scan>React</scan>, <scan>JavaScript</scan>,
-              <scan> HTML</scan>, <scan>CSS</scan>, <scan>Node.js</scan>, and
-              <scan> postgreSQL</scan>.
+              <scan> Vue Js</scan>, <scan>CSS</scan>,<scan>Tailwind</scan>, and{" "}
+              <scan>Node.js</scan>.
             </p>
           </div>
         </div>
       </hero>
 
-      <main className="bg-slate-50">
+      <main className="bgImageGithub mt-[16px] md:mt-[32px] relative">
         <a
           href="#header"
-          className="fixed mx-5 h-16 w-16 rounded-xl -right-0.5 no-underline text-3xl bg-pink-900 bg-opacity-60 flex items-center justify-center items-end"
+          className="fixed bottom-6 mx-5 h-16 w-16 rounded-xl -right-0.5 no-underline text-3xl bg-pink-900 bg-opacity-60 flex  justify-center"
         >
           <BackToTop />
         </a>
